@@ -1,35 +1,50 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
-## [1.0.0b] - 2022-10-28
+[1.19.2-1.0.0b] - 2022-10-28
+------------------
 
 ### Added
 
 - Minecraft item
-> `bingo:bingo_card`
+`bingo:bingo_card`
 - Files
-> + Bingo game files
-> + Bingo networking files
-> + Bingo config files
->     * Include recipe advancements in the game
->     * Include vanilla advancements in the game
->     * Include custom advancements in the game
->     * All players use the same bingo card in the game
->     * Any player advancement is marked completed for all players in the game
++ Bingo game files
++ Bingo networking files
++ Bingo config files
+    * Include recipe advancements in the game
+    * Include vanilla advancements in the game
+    * Include custom advancements in the game
+    * All players use the same bingo card in the game
+    * Any player advancement is marked completed for all players in the game
 - Minecraft GUI
-> + Bingo card screen
-> + Bingo winners screen
++ Bingo card screen
++ Bingo winners screen
 - Key Binding
-> View Bingo card key `'O'`
+View Bingo card key `'O'`
 - Item action
-> `bingo_card` 
-> + right click / view card
+`bingo_card` 
++ right click / view card
 - Minecraft command
-> + `bingo start` 
->     + Starts game
-> + `bingo reset` 
->     + Cancels any game in progress
-> + `bingo restart` 
->     + Restarts the game
++ `bingo start` 
+    + Starts game
++ `bingo reset` 
+    + Cancels any game in progress
++ `bingo restart` 
+    + Restarts the game
 
-[1.0.0b]: https://github.com/J78FDK42/Bingo/bingo-1.19.2-1.0.0b.jar
+[1.19.2-1.0.1b] - 2022-11-07
+------------------
+
+### Fixed
+
+* HUD display error
+* Global progress option grants achievement to all players
+
+### Added
+
+* Game save state / load state
+* Minecraft command `bingo add player`
+
+[1.19.2-1.0.0b]: https://github.com/J78FDK42/Bingo/raw/1.19.2-1.0b/bingo-1.19.2-1.0.0b.jar
+[1.19.2-1.0.1b]: https://github.com/J78FDK42/Bingo/raw/1.19.2-1.0b/bingo-1.19.2-1.0.1b.jar
