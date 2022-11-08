@@ -63,6 +63,7 @@ View Bingo card key `'O'`
 
 * Minecraft command `bingo add -player-` adds the player to the list of active players
 * Minecraft command `bingo start` starts the game for all active players
+* Minecraft command `bingo reset` renamed to `bingo stop` to cancel a game in progress
 
 ### Added
 
