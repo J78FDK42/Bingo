@@ -1,6 +1,11 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+[Unreleased] - TBD
+
+* Reward system
+* Team play
+
 [1.19.2-1.0.0b] - 2022-10-28
 ------------------
 
@@ -52,6 +57,17 @@ View Bingo card key `'O'`
 ### Fixed
 
 * Minecraft command `bingo add -player-` adds the player only if the player is not already added to the game
+* Global progress null card issue
+
+### Changed
+
+* Minecraft command `bingo add -player-` adds the player to the list of active players
+* Minecraft command `bingo start` starts the game for all active players
+
+### Added
+
+* Minecraft command `bingo add all` adds all players in the session to the list of active players
+* Minecraft command `bingo players` lists all active players in the session
 
 [1.19.2-1.0.0b]: https://github.com/J78FDK42/Bingo/raw/1.19.2-1.0b/bingo-1.19.2-1.0.0b.jar
 [1.19.2-1.0.1b]: https://github.com/J78FDK42/Bingo/raw/1.19.2-1.0b/bingo-1.19.2-1.0.1b.jar
