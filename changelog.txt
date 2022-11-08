@@ -44,7 +44,15 @@ View Bingo card key `'O'`
 ### Added
 
 * Game save state / load state
-* Minecraft command `bingo add player`
+* Minecraft command `bingo add -player-`
+
+[1.19.2-1.0.2b] - 2022-11-08
+------------------
+
+### Fixed
+
+* Minecraft command `bingo add -player-` adds the player only if the player is not already added to the game
 
 [1.19.2-1.0.0b]: https://github.com/J78FDK42/Bingo/raw/1.19.2-1.0b/bingo-1.19.2-1.0.0b.jar
 [1.19.2-1.0.1b]: https://github.com/J78FDK42/Bingo/raw/1.19.2-1.0b/bingo-1.19.2-1.0.1b.jar
+[1.19.2-1.0.2b]: https://github.com/J78FDK42/Bingo/raw/1.19.2-1.0b/bingo-1.19.2-1.0.2b.jar
