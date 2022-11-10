@@ -68,6 +68,7 @@ View Bingo card key `'O'`
 ### Added
 
 * Minecraft command `bingo add all` adds all players in the session to the list of active players
+* Minecraft command `bingo start all` starts the game for all players in the session
 * Minecraft command `bingo players` lists all active players in the session
 
 [1.19.2-1.0.2b]: https://github.com/J78FDK42/Bingo/raw/1.19.2-1.0b/bingo-1.19.2-1.0.2b.jar
