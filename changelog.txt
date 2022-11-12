@@ -6,6 +6,43 @@ All notable changes to this project will be documented in this file.
 * Reward system
 * Team play
 
+[1.19.2-1.0.2b] - 2022-11-08
+------------------
+
+### Fixed
+
+* Minecraft command `bingo add -player-` adds the player only if the player is not already added to the game
+* Global progress null card issue
+
+### Changed
+
+* Minecraft command `bingo add -player-` adds the player to the list of active players
+* Minecraft command `bingo start` starts the game for all active players
+* Minecraft command `bingo reset` renamed to `bingo stop` to cancel a game in progress
+
+### Added
+
+* Minecraft command `bingo add all` adds all players in the session to the list of active players
+* Minecraft command `bingo start all` starts the game for all players in the session
+* Minecraft command `bingo players` lists all active players in the session
+* Minecraft command `bingo add -player- red|blue` adds the player to the list of active team players
+* Minecraft command `bingo join` adds the player to the list of active players
+* Minecraft command `bingo join red|blue` adds the player to the list of active team players
+* Minecraft command `bingo quit` cancels the player's game in progress
+
+[1.19.2-1.0.1b] - 2022-11-07
+------------------
+
+### Fixed
+
+* HUD display error
+* Global progress option grants achievement to all players
+
+### Added
+
+* Game save state / load state
+* Minecraft command `bingo add -player-`
+
 [1.19.2-1.0.0b] - 2022-10-28
 ------------------
 
@@ -37,39 +74,6 @@ View Bingo card key `'O'`
     + Cancels any game in progress
 + `bingo restart` 
     + Restarts the game
-
-[1.19.2-1.0.1b] - 2022-11-07
-------------------
-
-### Fixed
-
-* HUD display error
-* Global progress option grants achievement to all players
-
-### Added
-
-* Game save state / load state
-* Minecraft command `bingo add -player-`
-
-[1.19.2-1.0.2b] - 2022-11-08
-------------------
-
-### Fixed
-
-* Minecraft command `bingo add -player-` adds the player only if the player is not already added to the game
-* Global progress null card issue
-
-### Changed
-
-* Minecraft command `bingo add -player-` adds the player to the list of active players
-* Minecraft command `bingo start` starts the game for all active players
-* Minecraft command `bingo reset` renamed to `bingo stop` to cancel a game in progress
-
-### Added
-
-* Minecraft command `bingo add all` adds all players in the session to the list of active players
-* Minecraft command `bingo start all` starts the game for all players in the session
-* Minecraft command `bingo players` lists all active players in the session
 
 [1.19.2-1.0.2b]: https://github.com/J78FDK42/Bingo/raw/1.19.2-1.0b/bingo-1.19.2-1.0.2b.jar
 [1.19.2-1.0.1b]: https://github.com/J78FDK42/Bingo/raw/1.19.2-1.0b/bingo-1.19.2-1.0.1b.jar
