@@ -1,0 +1,42 @@
+
+
+The original Bingo mod is back! A simple game of advancement bingo.
+
+[image]
+A game of Bingo in progress.
+
+A user can start a game of advancement bingo for players in the session. The game works with both vanilla advancements and/or custom advancements. Options for various game rules and card generation can be changed in the config files. Advancements are numbered starting from one and generated boards have a proper bingo number spread among all rows and columns.
+
+## FAQs ##
+
+### How to Play ###
+
+1. Add players
+* A player can type the `\bingo join` command to join a game of bingo
+* A player can type the `\bingo add -player-` command to add another player to the game
+* A player can type the `\bingo players` command to see a list of all players in the game
+
+2. Start the game! 
+* When players are ready, a player can type the `\bingo start` command to start the game of advancement bingo.
+* A player can quit the game at any time using the `\bingo quit` command
+* A game can be cancelled for all players at any time using the `\bingo stop` command
+* The game status can be viewed at any time using the `\bingo started` command
+* Bingo cards can be viewed using the 'o' key or right-clicking a bingo card item
+* Bingo cards can only be viewed after the game has started
+* Player advancement progress is cleared when the game is started
+
+### Red vs. Blue Team Play ###
+
+* A player can type the `\bingo join red|blue` to join the red or blue team
+* A player can type the `\bingo add -player- red|blue` command to add another player to the red or blue team
+* When a player types the `\bingo players` command each player name is displayed in their team color if any
+
+### Game Rules and Config Files ###
+
+* Include/exclude recipe advancements in the game
+* Include/exclude vanilla advancements in the game
+* Include/exclude custom advancements in the game
+* All players use the same bingo card in the game
+* Any player advancement is marked completed for all players in the game
+* Team players use the same bingo card in the game
+* Team player advancement is marked completed for all players on the team
