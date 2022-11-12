@@ -34,7 +34,10 @@ All notable changes to this project will be documented in this file.
     + Team players use the same bingo card in the game
     + Team player advancement is marked completed for all players on the team
     
-- Minecraft GUI
+### Removed
+
+* Minecraft command `bingo restart`
+
 [1.19.2-1.0.1b] - 2022-11-07
 ------------------
 
@@ -79,6 +82,7 @@ View Bingo card key `'O'`
     * Cancels any game in progress
 + `bingo restart` 
     * Restarts the game
+- Minecraft GUI
 
 [1.19.2-1.0.2b]: https://github.com/J78FDK42/Bingo/raw/1.19.2-1.0b/bingo-1.19.2-1.0.2b.jar
 [1.19.2-1.0.1b]: https://github.com/J78FDK42/Bingo/raw/1.19.2-1.0b/bingo-1.19.2-1.0.1b.jar
