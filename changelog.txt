@@ -3,8 +3,7 @@ All notable changes to this project will be documented in this file.
 
 [Unreleased] - TBD
 
-* Reward system
-* Team play
+* Reward system and loot tables
 
 [1.19.2-1.0.2b] - 2022-11-08
 ------------------
@@ -29,7 +28,11 @@ All notable changes to this project will be documented in this file.
 * Minecraft command `bingo join` adds the player to the list of active players
 * Minecraft command `bingo join red|blue` adds the player to the list of active team players
 * Minecraft command `bingo quit` cancels the player's game in progress
-
+* Bingo config files
+    + Team players use the same bingo card in the game
+    + Team player advancement is marked completed for all players on the team
+    
+- Minecraft GUI
 [1.19.2-1.0.1b] - 2022-11-07
 ------------------
 
@@ -48,9 +51,9 @@ All notable changes to this project will be documented in this file.
 
 ### Added
 
-- Minecraft item
+#### Minecraft item
 `bingo:bingo_card`
-- Files
+#### Files
 + Bingo game files
 + Bingo networking files
 + Bingo config files
@@ -59,21 +62,21 @@ All notable changes to this project will be documented in this file.
     * Include custom advancements in the game
     * All players use the same bingo card in the game
     * Any player advancement is marked completed for all players in the game
-- Minecraft GUI
+#### Minecraft GUI
 + Bingo card screen
 + Bingo winners screen
 - Key Binding
 View Bingo card key `'O'`
-- Item action
+#### Item action
 `bingo_card` 
 + right click / view card
 - Minecraft command
 + `bingo start` 
-    + Starts game
+    * Starts game
 + `bingo reset` 
-    + Cancels any game in progress
+    * Cancels any game in progress
 + `bingo restart` 
-    + Restarts the game
+    * Restarts the game
 
 [1.19.2-1.0.2b]: https://github.com/J78FDK42/Bingo/raw/1.19.2-1.0b/bingo-1.19.2-1.0.2b.jar
 [1.19.2-1.0.1b]: https://github.com/J78FDK42/Bingo/raw/1.19.2-1.0b/bingo-1.19.2-1.0.1b.jar
