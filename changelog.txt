@@ -12,6 +12,7 @@ All notable changes to this project will be documented in this file.
 ### Fixed
 
 * Minecraft command `bingo add -player-` adds the player only if the player is not already added to the game
+* Player progress null card issue
 * Global progress null card issue
 
 ### Changed
