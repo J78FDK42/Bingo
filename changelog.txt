@@ -6,6 +6,15 @@ All notable changes to this project will be documented in this file.
 * Custom collectables advancement list
 * Reward system and loot tables
 
+[1.19.2-1.0.3b] - 2022-11-15
+------------------
+
+### Fixed
+
+* issue with blue team win trigger
+* issue with advancement criteria for global/team progress
+
+
 [1.19.2-1.0.2b] - 2022-11-11
 ------------------
 
