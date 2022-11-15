@@ -3,7 +3,7 @@ All notable changes to this project will be documented in this file.
 
 [Unreleased] - TBD
 
-* Custom collectables advancement list
+* Custom activities advancement list
 * Reward system and loot tables
 
 [1.19.2-1.0.3b] - 2022-11-15
