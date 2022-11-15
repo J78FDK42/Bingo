@@ -11,6 +11,7 @@ All notable changes to this project will be documented in this file.
 
 ### Fixed
 
+* issue loading custom advancements
 * issue with blue team win trigger
 * issue with advancement criteria for global/team progress
 
