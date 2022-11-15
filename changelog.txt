@@ -15,6 +15,12 @@ All notable changes to this project will be documented in this file.
 * issue with blue team win trigger
 * issue with advancement criteria for global/team progress
 
+### Added
+
+* custom collectables easy datapack
+* custom collectables medium datapack
+* custom collectables hard datapack
+
 
 [1.19.2-1.0.2b] - 2022-11-11
 ------------------
