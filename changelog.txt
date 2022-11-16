@@ -18,6 +18,17 @@ All notable changes to this project will be documented in this file.
 
 #### Minceraft Commands ####
 
+* command `\bingo advancements recipes` gets the game config file for recipe advancements
+* command `\bingo advancements vanilla` gets the game config file for vanilla advancements
+* command `\bingo advancements custom` gets the game config file for custom advancements
+
+* command `\bingo advancements recipes enabled` enables the game config file for recipe advancements
+* command `\bingo advancements recipes disabled` disables the game config file for recipe advancements
+* command `\bingo advancements vanilla enabled` enables the game config file for vanilla advancements
+* command `\bingo advancements vanilla disabled` disables the game config file for vanilla advancements
+* command `\bingo advancements custom enabled` enables the game config file for custom advancements
+* command `\bingo advancements custom disabled` disables the game config file for custom advancements
+
 * command `\bingo team progress` gets the game config file for team progress
 * command `\bingo team cards` gets the game config file for team bingo cards
 * command `\bingo global progress` gets the game config file for global progress
