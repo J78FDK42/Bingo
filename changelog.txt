@@ -3,8 +3,34 @@ All notable changes to this project will be documented in this file.
 
 [Unreleased] - TBD
 
+* Game Start GUI
 * Custom activities advancement list
 * Reward system and loot tables
+
+[1.19.2-1.0.4b] - 2022-11-15
+------------------
+
+### Fixed
+
+* issue with player join and new settings
+
+### Added
+
+#### Minceraft Commands ####
+
+* command `\bingo team progress` gets the game config file for team progress
+* command `\bingo team cards` gets the game config file for team bingo cards
+* command `\bingo global progress` gets the game config file for global progress
+* command `\bingo global cards` gets the game config file for global bingo cards
+
+* command `\bingo team progress enabled` enables the game config file for team progress
+* command `\bingo team progress disabled` disables the game config file for team progress
+* command `\bingo team cards enabled` enables the game config file for team bingo cards
+* command `\bingo team cards disabled` disables the game config file for team bingo cards
+* command `\bingo global progress enabled` enables the game config file for global progress
+* command `\bingo global progress disabled` disables the game config file for global progress
+* command `\bingo global cards enabled` enables the game config file for global bingo cards
+* command `\bingo global cards disabled` disables the game config file for global bingo cards
 
 [1.19.2-1.0.3b] - 2022-11-15
 ------------------
