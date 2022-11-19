@@ -20,15 +20,15 @@ All notable changes to this project will be documented in this file.
 * a player can now join a game in progress
 * a new bingo card is generated only if the player does not arlready have one
 * a player can switch teams, but only if the game has not yet started
-* some of the collectables advancements were moved or changed
-* all collectables datapacks are now archived in a single file
+* some of the collectibles advancements were moved or changed
+* all collectibles datapacks are now archived in a single file
 
 ### Added
 
 * Game Start and Config GUI
 * Bingo card validation check for team progress
 * Bingo card validation check for team bingo cards
-* some new collectables advanements were added
+* some new collectibles advanements were added
 
 [1.19.2-1.0.3b] - 2022-11-15
 ------------------
@@ -41,9 +41,9 @@ All notable changes to this project will be documented in this file.
 
 ### Added
 
-* custom collectables easy datapack
-* custom collectables medium datapack
-* custom collectables hard datapack
+* custom collectibles easy datapack
+* custom collectibles medium datapack
+* custom collectibles hard datapack
 
 
 [1.19.2-1.0.2b] - 2022-11-11
