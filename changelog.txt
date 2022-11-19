@@ -13,6 +13,7 @@ All notable changes to this project will be documented in this file.
 
 * issue with player join and new settings
 * issue with generating team and global bingo cards
+* issue with initial loading of validation data
 
 ### Changed
 
@@ -23,6 +24,8 @@ All notable changes to this project will be documented in this file.
 ### Added
 
 * Game Start and Config GUI
+* Bingo card validation check for team progress
+* Bingo card validation check for team bingo cards
 
 [1.19.2-1.0.3b] - 2022-11-15
 ------------------
