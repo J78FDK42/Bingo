@@ -21,6 +21,7 @@ All notable changes to this project will be documented in this file.
 * a new bingo card is generated only if the player does not arlready have one
 * a player can switch teams, but only if the game has not yet started
 * some of the collectables advancements were moved or changed
+* all collectables datapacks are now archived in a single file
 
 ### Added
 
