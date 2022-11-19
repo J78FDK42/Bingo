@@ -3,45 +3,26 @@ All notable changes to this project will be documented in this file.
 
 [Unreleased] - TBD
 
-* Game Start GUI
 * Custom activities advancement list
 * Reward system and loot tables
 
-[1.19.2-1.0.4b] - 2022-11-15
+[1.19.2-1.0.4b] - 2022-11-19
 ------------------
 
 ### Fixed
 
 * issue with player join and new settings
+* issue with generating team and global bingo cards
+
+### Changed
+
+* a player can now join a game in progress
+* a new bingo card is generated only if the player does not arlready have one
+* a player can switch teams, but only if the game has not yet started
 
 ### Added
 
-#### Minceraft Commands ####
-
-* command `\bingo advancements recipes` gets the game config file for recipe advancements
-* command `\bingo advancements vanilla` gets the game config file for vanilla advancements
-* command `\bingo advancements custom` gets the game config file for custom advancements
-
-* command `\bingo advancements recipes enabled` enables the game config file for recipe advancements
-* command `\bingo advancements recipes disabled` disables the game config file for recipe advancements
-* command `\bingo advancements vanilla enabled` enables the game config file for vanilla advancements
-* command `\bingo advancements vanilla disabled` disables the game config file for vanilla advancements
-* command `\bingo advancements custom enabled` enables the game config file for custom advancements
-* command `\bingo advancements custom disabled` disables the game config file for custom advancements
-
-* command `\bingo team progress` gets the game config file for team progress
-* command `\bingo team cards` gets the game config file for team bingo cards
-* command `\bingo global progress` gets the game config file for global progress
-* command `\bingo global cards` gets the game config file for global bingo cards
-
-* command `\bingo team progress enabled` enables the game config file for team progress
-* command `\bingo team progress disabled` disables the game config file for team progress
-* command `\bingo team cards enabled` enables the game config file for team bingo cards
-* command `\bingo team cards disabled` disables the game config file for team bingo cards
-* command `\bingo global progress enabled` enables the game config file for global progress
-* command `\bingo global progress disabled` disables the game config file for global progress
-* command `\bingo global cards enabled` enables the game config file for global bingo cards
-* command `\bingo global cards disabled` disables the game config file for global bingo cards
+* Game Start and Config GUI
 
 [1.19.2-1.0.3b] - 2022-11-15
 ------------------
