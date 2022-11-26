@@ -16,28 +16,21 @@ All notable changes to this project will be documented in this file.
 * issue with player join and new settings
 * issue with generating team and global bingo cards
 * issue with initial loading of validation data
+* issue with game update after game ended
 
 ### Changed
 
--- Bingo Game --
 * a player can now join a game in progress
 * a new bingo card is generated only if the player does not arlready have one
 * a player can switch teams, but only if the game has not yet started
-
--- Advancements Datapack --
 * some of the collectibles advancements were moved or changed
 * all collectibles datapacks are now archived in a single file
 
 ### Added
 
--- Minecraft GUI --
-+ Game Start and Config GUI
-
--- Bingo Game --
+* Game Start and Config GUI
 * Bingo card validation check for team progress
 * Bingo card validation check for team bingo cards
-
--- Advancements Datapack --
 * some new collectibles advanements were added
 
 [1.19.2-1.0.3b] - 2022-11-15
@@ -125,22 +118,21 @@ All notable changes to this project will be documented in this file.
 
 + Bingo card screen
 + Bingo winners screen
--- Key Binding --
+- Key Binding
 View Bingo card key `'O'`
 
 #### Item action
 
 `bingo_card` 
 + right click / view card
--- Minecraft command --
+- Minecraft command
 + `bingo start` 
 	* Starts game
 + `bingo reset` 
 	* Cancels any game in progress
 + `bingo restart` 
 	* Restarts the game
--- Minecraft GUI --
-+ Bingo Card GUI
+- Minecraft GUI
 
 [1.19.2-1.0.4b]: https://github.com/J78FDK42/Bingo/raw/1.19.2-1.0b/bingo-1.19.2-1.0.4b.jar
 [1.19.2-1.0.3b]: https://github.com/J78FDK42/Bingo/raw/1.19.2-1.0b/bingo-1.19.2-1.0.3b.jar

@@ -9,13 +9,16 @@ A user can start a game of advancement bingo for players in the session. The gam
 ### How to Play ###
 
 #### Add players
+
 * A player can type the `\bingo join` command to join a game of bingo
 * A player can type the `\bingo add -player-` command to add another player to the game
 * A player can type the `\bingo players` command to see a list of all players in the game
 
 #### Start the game! 
+
 * Open the bingo start screen using the `'b'` key to choose bingo card generation options
-* When players are ready, a player can type the `\bingo start` command to start the game of advancement bingo
+* When players are ready, a player can use the start screen to start a game of advancement bingo
+* A player can also type the `\bingo start` command to start the game of advancement bingo
 * A player can quit the game at any time using the `\bingo quit` command
 * A game can be cancelled for all players at any time using the `\bingo stop` command
 * The game status can be viewed at any time using the `\bingo started` command
