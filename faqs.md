@@ -1,18 +1,23 @@
 The original Bingo mod is back! A simple game of advancement bingo.
 
-![A game of Bingo in progress.](https://github.com/J78FDK42/Bingo/raw/1.19.2-1.0b/screenshot-in-progress.png "A game of Bingo in progress.")
+![A game of Bingo in progress.](https://github.com/J78FDK42/Bingo/blob/main/screenshot-in-progress.png "A game of Bingo in progress.")
 
 A user can start a game of advancement bingo for players in the session. The game works with both vanilla advancements and/or custom advancements. Options for various game rules and card generation can be changed in the config files. Advancements are numbered starting from one and generated boards have a proper bingo number spread among all rows and columns.
 
 ## FAQs ##
 
+
 ### How to Play ###
+
+[How to Play (video)](link "How to Play (video)")
+
 
 #### Add players
 
 * A player can type the `\bingo join` command to join a game of bingo
 * A player can type the `\bingo add -player-` command to add another player to the game
 * A player can type the `\bingo players` command to see a list of all players in the game
+
 
 #### Start the game! 
 
@@ -27,12 +32,14 @@ A user can start a game of advancement bingo for players in the session. The gam
 * Player advancement progress is cleared when the game is started
 * A player with op privileges can kick a player from the game using the `\bingo kick -player-` command
 
+
 ### Red vs. Blue Team Play ###
 
 * A player can type the `\bingo join red|blue` to join the red or blue team
 * A player can type the `\bingo add -player- red|blue` command to add another player to the red or blue team
 * When a player types the `\bingo players` command each player name is displayed in their team color if any
 * A player cannot switch teams once a game has started
+
 
 ### Key Bindings ###
 
@@ -41,6 +48,7 @@ The default keys for the bingo game can changed in the Minecraft Menu for Key Bi
 * View Bingo Card: `'o'`
 * View Game Screen: `'b'`
  
+
 ### Game Rules and Config Files ###
 
 Use the Bingo Game Screen using the `'b'` key
@@ -55,6 +63,7 @@ Navigate and edit file: `config/bingo-common.toml`
 * Team players use the same bingo card in the game
 * Team player advancement is marked completed for all players on the team
 
+
 ### Loot Generation ###
 
 Game Screen option for Loot Generation on the Progress page using the `'b'` key
@@ -64,15 +73,21 @@ Game Screen option for Loot Generation on the Progress page using the `'b'` key
 -OR-
 Navigate and edit file: `config/bingo-common.toml` 
 
+
 ### Advancement Datapacks ###
+
+[Custom Advancements (video)](link "Custom Advancements (video)")
 
 Just extract the datapacks.zip file and drop any or all collectables datapacks into your world save's datapacks folder and make sure custom advancements are enabled.
 
-* Easy collectables datapack
-* Medium collectables datapack
-* Hard collectables datapack
+* Easy collectables datapack (100+ items!)
+* Medium collectables datapack (100+ items!)
+* Hard collectables datapack (100+ items!)
+
 
 ### Custom Loot Tables ###
+
+[Custom Loot Tables (video)](link "Custom Loot Tables (video)")
 
 Just extract the datapacks.zip file and drop the BingoLoot folder into your world save's datapacks folder to generate random loot during the game. You can customize the given loot by editing the square.json and winner.json files.
 
