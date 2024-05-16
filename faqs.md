@@ -1,6 +1,6 @@
 The original Bingo mod is back! A simple game of advancement bingo.
 
-![A game of Bingo in progress.](https://github.com/J78FDK42/Bingo/blob/main/screenshot-in-progress.png "A game of Bingo in progress.")
+![A game of Bingo in progress.](https://github.com/J78FDK42/Bingo/raw/main/screenshots/screenshot-in-progress.png "A game of Bingo in progress.")
 
 A user can start a game of advancement bingo for players in the session. The game works with both vanilla advancements and/or custom advancements. Options for various game rules and card generation can be changed in the config files. Advancements are numbered starting from one and generated boards have a proper bingo number spread among all rows and columns.
 
