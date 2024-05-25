@@ -9,7 +9,7 @@ A user can start a game of advancement bingo for players in the session. The gam
 
 ### How to Play ###
 
-[How to Play (video)](link "How to Play (video)")
+[How to Play (video)](https://youtu.be/04HSqShVT68 "How to Play (video)")
 
 
 #### Add players
@@ -74,6 +74,16 @@ Game Screen option for Loot Generation on the Progress page using the `'b'` key
 Navigate and edit file: `config/bingo-common.toml` 
 
 
+### Custom Loot Tables ###
+
+[Custom Loot Tables (video)](link "Custom Loot Tables (video)")
+
+Just extract the datapacks.zip file and drop the BingoLoot folder into your world save's datapacks folder to generate random loot during the game. You can customize the given loot by editing the square.json and winner.json files.
+
+* BingoLoot/data/bingo/loot_tables/square.json
+* BingoLoot/data/bingo/loot_tables/winner.json
+
+
 ### Advancement Datapacks ###
 
 [Custom Advancements (video)](link "Custom Advancements (video)")
@@ -83,13 +93,3 @@ Just extract the datapacks.zip file and drop any or all collectables datapacks i
 * Easy collectables datapack (100+ items!)
 * Medium collectables datapack (100+ items!)
 * Hard collectables datapack (100+ items!)
-
-
-### Custom Loot Tables ###
-
-[Custom Loot Tables (video)](link "Custom Loot Tables (video)")
-
-Just extract the datapacks.zip file and drop the BingoLoot folder into your world save's datapacks folder to generate random loot during the game. You can customize the given loot by editing the square.json and winner.json files.
-
-* BingoLoot/data/bingo/loot_tables/square.json
-* BingoLoot/data/bingo/loot_tables/winner.json
