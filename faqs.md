@@ -49,6 +49,56 @@ The default keys for the bingo game can changed in the Minecraft Menu for Key Bi
 * View Game Screen: `'b'`
  
 
+### Loot Generation ###
+
+Game Screen option for Loot Generation on the Progress page using the `'b'` key
+-OR-
+* A player can type the `\bingo loot` command to toggle loot generation on or off
+* A player with op privileges can toggle loot generation after the game has started
+-OR-
+Navigate and edit file: `config/bingo-common.toml` 
+
+
+### Custom Loot Tables ###
+
+[Custom Loot Tables (video)](https://youtu.be/qXyW3msLbgQ "Custom Loot Tables (video)")
+
+Just extract the datapacks.zip file and drop the BingoLoot folder into your world save's datapacks folder to generate random loot during the game. You can customize the given loot by editing the square.json and winner.json files.
+
+* BingoLoot/data/bingo/loot_tables/square.json
+* BingoLoot/data/bingo/loot_tables/winner.json
+
+
+### Advancement Datapacks ###
+
+[Custom Advancements (video)](https://youtu.be/qXyW3msLbgQ "Custom Advancements (video)")
+
+Just extract the datapacks.zip file and drop any or all collectables datapacks into your world save's datapacks folder and make sure custom advancements are enabled.
+
+* Easy collectables datapack (100+ items!)
+* Medium collectables datapack (100+ items!)
+* Hard collectables datapack (100+ items!)
+
+
+### Minecraft Game Commands ###
+
+
+* `bingo start` starts the game
+* `bingo stop` cancels any game in progress
+* `bingo reset` same as `bingo stop` to cancel a game in progress
+* `bingo add -player-` adds the player to the list of active players
+* `bingo start` starts the game for all active players
+* `bingo add all` adds all players in the session to the list of active players
+* `bingo start all` starts the game for all players in the session
+* `bingo players` lists all active players in the session
+* `bingo add -player- red|blue` adds the player to the list of active team players
+* `bingo join` adds the player to the list of active players
+* `bingo join red|blue` adds the player to the list of active team players
+* `bingo quit` cancels the player's game in progress
+* `bingo kick -player-` removes a player from the game (requires op privileges)
+* `bingo loot` toggles game loot generation on or off
+
+
 ### Game Rules and Config Files ###
 
 Use the Bingo Game Screen using the `'b'` key
@@ -64,32 +114,3 @@ Navigate and edit file: `config/bingo-common.toml`
 * Team player advancement is marked completed for all players on the team
 
 
-### Loot Generation ###
-
-Game Screen option for Loot Generation on the Progress page using the `'b'` key
--OR-
-* A player can type the `\bingo loot` command to toggle loot generation on or off
-* A player with op privileges can toggle loot generation after the game has started
--OR-
-Navigate and edit file: `config/bingo-common.toml` 
-
-
-### Custom Loot Tables ###
-
-[Custom Loot Tables (video)](link "Custom Loot Tables (video)")
-
-Just extract the datapacks.zip file and drop the BingoLoot folder into your world save's datapacks folder to generate random loot during the game. You can customize the given loot by editing the square.json and winner.json files.
-
-* BingoLoot/data/bingo/loot_tables/square.json
-* BingoLoot/data/bingo/loot_tables/winner.json
-
-
-### Advancement Datapacks ###
-
-[Custom Advancements (video)](link "Custom Advancements (video)")
-
-Just extract the datapacks.zip file and drop any or all collectables datapacks into your world save's datapacks folder and make sure custom advancements are enabled.
-
-* Easy collectables datapack (100+ items!)
-* Medium collectables datapack (100+ items!)
-* Hard collectables datapack (100+ items!)
