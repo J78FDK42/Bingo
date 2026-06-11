@@ -1,0 +1,124 @@
+{
+	"item.bingo.bingo_card": "a bingo card", 
+	
+	"key.category.bingo.game": "Bingo Game", 
+	"key.bingo.open_card": "View Bingo Card", 
+	"key.bingo.start_screen": "View Game Screen", 
+
+	"bingo.card_screen.title": "Bingo Card", 
+	"bingo.game_screen.title": "Bingo Game", 
+	"bingo.winner_screen.title": "Bingo Winners", 
+	
+	"bingo.start_screen.back": "BACK", 
+	   	
+	"bingo.start_screen.main_tab.game": "GAME",  	
+	"bingo.start_screen.main_tab.options": "OPTIONS",  	
+	"bingo.start_screen.main_tab.teams": "TEAMS",  	
+	"bingo.start_screen.main_tab.join": "JOIN",  	
+	"bingo.start_screen.main_tab.start": "START",   	
+	"bingo.start_screen.main_tab.stop": "STOP",   	
+	"bingo.start_screen.main_tab.quit": "QUIT",   	
+	"bingo.start_screen.main_tab.reset": "RESET",   	
+
+	"bingo.start_screen.game_tab.bingo": "BINGO",  	
+	"bingo.start_screen.game_tab.blackout": "BLACKOUT",  	
+	"bingo.start_screen.game_tab.twenty": "TWENTY",  	
+
+	"bingo.start_screen.options_tab.unlocks": "UNLOCKS",   	
+	"bingo.start_screen.options_tab.cards": "CARDS",   	
+	"bingo.start_screen.options_tab.progress": "PROGRESS",   	
+
+	"bingo.start_screen.unlocks_tab.recipes": "RECIPES",   	
+	"bingo.start_screen.unlocks_tab.advancements": "ADVANCEMENTS",   	
+
+	"bingo.start_screen.unlocks_tab.vanilla": "VANILLA",   	
+	"bingo.start_screen.unlocks_tab.modded": "MODDED",   	
+	"bingo.start_screen.unlocks_tab.custom": "CUSTOM",   	
+
+	"bingo.start_screen.cards_tab.team": "TEAM CARDS",   	
+	"bingo.start_screen.cards_tab.global": "GLOBAL CARDS",   	
+	"bingo.start_screen.cards_tab.personal": "PERSONAL CARDS",   	
+
+	"bingo.start_screen.progress_tab.team": "TEAM PROGRESS",   	
+	"bingo.start_screen.progress_tab.global": "GLOBAL PROGRESS",   	
+	"bingo.start_screen.progress_tab.personal": "PERSONAL PROGRESS",   	
+
+	"bingo.start_screen.progress_tab.loot": "GENERATE LOOT", 
+	
+	"bingo.start_screen.join_tab.neutral": "NEUTRAL",    	
+	"bingo.start_screen.join_tab.red": "TEAM RED",    	
+	"bingo.start_screen.join_tab.blue": "TEAM BLUE",  
+	
+	"bingo.winners_screen.header": "-- WINNERS --", 
+	
+	"bingo.commands.debug_mode.true": "Debug mode enabled.", 
+	"bingo.commands.debug_mode.false": "Debug mode disabled.", 
+
+	"bingo.commands.joined.true": "has joined team", 
+	"bingo.commands.joined.false": "has not joined a team.", 
+
+	"bingo.commands.started.true": "The game has started.", 
+	"bingo.commands.started.false": "The game has not yet started.", 
+	"bingo.commands.started.fail": "The game is over.", 
+
+	"bingo.commands.add_player.error.advancements": "Cannot generate bingo card. Not enough advancements loaded:", 
+	"bingo.commands.add_player.error.started": "Cannot add player, game already started.", 
+	"bingo.commands.add_player.error.added": "was already added to the team.", 
+	"bingo.commands.add_player.error.missing": "not found.", 
+	"bingo.commands.add_player.error.unknown": "Cannot add player, unknown error.", 
+	"bingo.commands.add_player.success.neutral": "was added to the game.", 
+	"bingo.commands.add_player.success.team": "was added to team", 
+
+	"bingo.commands.loot.true": "Loot generation enabled.", 
+	"bingo.commands.loot.false": "Loot generation disabled.", 
+
+	"bingo.commands.toggle_loot.fail": "Only operators can change loot generation while a game is in progress.", 
+	"bingo.commands.toggle_debug.fail": "Developer permissions are required to toggle debug mode.", 
+
+	"bingo.commands.player_quit.success": "has left team", 
+	"bingo.commands.player_quit.error": "Cannot leave a team while the game is in progress.", 
+	
+	"bingo.commands.return_items.true": "Items returned.", 
+	"bingo.commands.return_items.false": "Cannot return items. End game to return items.", 
+	"bingo.commands.return_items.zero": "Cannot return items. No items to return.", 
+
+	"bingo.commands.start.error.advancements": "Cannot start game. Not enough advancements loaded:", 
+	"bingo.commands.start.error.started": "Game already in progress.", 
+	"bingo.commands.start.error.added": "was already added to the game.", 
+	"bingo.commands.start.error.missing": "not found.", 
+	"bingo.commands.start.error.unknown": "Cannot add player, unknown error.", 
+
+	"bingo.commands.started": "Game started.", 
+	"bingo.commands.players": "Players added:", 
+	"bingo.commands.players.fail": "There are no players in the game.", 
+	"bingo.commands.reset": "Game reset.",
+	
+	"bingo.text.red": "red", 
+	"bingo.text.blue": "blue",
+	 
+	"bingo.text.game_won": "has won the game!",
+	"bingo.text.game_won.team_red": "Team red has won the game!", 
+	"bingo.text.game_won.team_blue": "Team blue has won the game!", 
+	"bingo.text.game_won.player": "Player", 
+	"bingo.text.game_tied": "has tied the game!",  
+	"bingo.text.game_tied.team": "Team red and blue have tied the game!",  
+	
+	"bingo.text.player.resumed": "resumed the game.", 
+	"bingo.text.player.invalid": "could not resume the game. Invalid board data.", 
+	"bingo.text.player.eliminated": "has finished the game.", 
+	
+	"bingo.commands.game.blackout": "Blackout", 
+	"bingo.commands.game.twenty": "Twenty", 
+	"bingo.commands.game.bingo": "Bingo", 
+	
+	"bingo.commands.game.personal": "Personal", 
+	"bingo.commands.game.team": "Team", 
+	"bingo.commands.game.global": "Global", 
+	
+	"bingo.commands.team.red": "Team Red", 
+	"bingo.commands.team.blue": "Team Blue", 
+	
+	"bingo.text.player.begin": "Player", 
+	"bingo.text.players.begin": "Players", 
+	"bingo.text.winners.begin": "Winners" 
+}
